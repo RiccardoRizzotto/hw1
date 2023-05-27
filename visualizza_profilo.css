@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #album-view {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .titolo
+  {
+    color: #2c2c2c;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .dati {
+    display: grid;
+  }
+
+  .dati div {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  
+  .dati h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .dati p {
+    margin: 5px 0;
+  }
+  
+
+ .hidden
+ {
+    display: none;
+ }
+
+
+
+

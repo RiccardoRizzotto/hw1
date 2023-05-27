@@ -1,0 +1,387 @@
+/* FILE CSS DELLA HOME PAGE*/
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+html
+{
+  font-size: 22px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    border-radius: 20px;
+  }
+
+#navbar{
+   height: 60px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 20px;
+   width: 100%;
+}
+
+.elemnav
+{    
+    font-size: 0.7rem;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    margin: 7px 7px 7px 7px;
+}
+
+.video
+{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  width: 800px;
+
+}
+
+#header
+{
+ display: flex;
+ height: 500px;
+ width: 100%;
+ background-image: url(https://besthqwallpapers.com/Uploads/19-8-2020/139904/4k-dolomites-morning-summer-fog.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: white;
+ border: 3px solid whitesmoke;
+ background-position: center;
+ position: relative;
+}
+
+.overlay
+ {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+ }
+
+.titolo{
+    display:flex;
+    max-width: 780px;
+    margin: 1px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'PlayFair Display';
+    position: absolute;
+    bottom: 90%;
+}
+
+.titolo2
+{
+    margin-bottom: 0%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+}
+
+.immagine{
+    align-items: center;
+    height: auto;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#section{
+  height: auto;
+  width: calc(66.67% + 80px);
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+#flex-container{
+display:flex;
+width: calc(66.67% + 80px);
+flex-direction: column;
+margin: 0 auto;
+}
+
+.flex-item
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #5F6308; /*#9E8729*/
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-bottom: 120px;
+  padding: 0 100px 0 100px;
+
+}
+
+.descrizione
+{
+  color: whitesmoke;
+  margin: 20px;
+}
+
+
+.footerp
+{
+  background-color: black;
+   color: whitesmoke;
+   padding: 2.5%;
+   font-size: 0.9rem;
+   font-weight: 200;
+   text-align: center;
+   font-family: 'Lora', serif;
+   letter-spacing: 2px;
+   font-style: normal;
+   height: 100px;
+}
+
+
+#logoecaption
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+#logo 
+{
+   position: absolute;
+   top: 20rem;
+   border-radius: 2.5rem;
+   height: 100px;
+   width: 5rem;
+   border-style: none none solid none;
+   border-width: 0.15rem;
+   z-index: 2;
+}
+
+#stato 
+{
+    text-align: center;
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    color: #202020;
+    font-style: italic;
+    font-family: 'Gill Sans MT', sans-serif;
+}
+
+.number
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  position: absolute;
+  color: black;
+}
+
+.commento 
+{
+  color: whitesmoke;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-family: 'Merriweather';
+  font-size: medium;
+}
+
+
+#menu 
+{
+  display: none;
+  position: relative;
+  bottom:48%;
+  left: 92%;
+  width: 25px;
+}
+  
+#menu div 
+{
+  width: 25px;
+  height: 3px;
+  top: 4em;
+  background-color: rgb(0, 0, 0);
+  margin: 2px 0;
+}
+
+
+.bottone
+{
+  max-width: 200px;
+  margin-left: 31%;
+  margin-bottom: 10px;
+}
+
+
+.social-menu ul
+{
+  position: absolute;
+  display: flex;
+  left: 38%;
+  width: 5%;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+  font-size: 30px;
+  line-height: 40px;
+  transition: .6s;
+  color: black;
+}
+
+.social-menu ul li a
+{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.social-menu ul li a:hover {
+  transform: translate(0, -10px);
+}
+
+.info_footer
+{
+  text-align: left;
+  font-size: 15px;
+}
+
+.info_footer2
+{
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.video-cointainer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: -60px;
+  
+}
+
+.video
+{
+  height: 500px;
+  width: 650px;
+}
+
+
+
+@media (max-width: 750px)
+{
+  body
+  {
+    font-size:14px;
+  }
+
+  .immagine
+  {
+    height: 18vh;
+    width: 56vw;
+  }
+
+  .flex-item
+  {
+    padding: 0%;
+  }
+
+  .footerp
+  {
+    font-size:0.5rem;
+  }
+  
+  header
+  {
+    flex-direction:column;
+    justify-content: center;
+    height: 220px;
+  }
+
+  #logo
+  {
+    position: absolute;
+    top: 31.6em;
+  }
+
+  .titolo
+  {
+    font-size: 1.2em;
+  }
+
+  .numero
+   {
+     left: 0.6px;
+   }
+
+  .elemnav
+  {
+    display: none;
+  }
+
+    #menu
+    {
+      display: block;
+
+    }
+
+.social-menu ul
+{
+  padding-left: 6%;
+}
+
+.social-menu ul li a
+{
+  width: 26px;
+  height: 26px;
+}
+  
+
+.social-menu ul li .fa{
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.info_footer
+{
+  font-size: 12px;
+}
+
+.info_footer2
+{
+  font-size: 14px;
+  line-height: 40px;
+}
+
+}

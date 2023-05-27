@@ -1,0 +1,355 @@
+/* FILE CSS DELLA PAGINA DI MOENA */
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+html
+{
+  font-size: 22px;
+}
+
+#header
+{
+ display: flex;
+ height: 500px;
+ width: 100%;
+ background-image: url(https://www.trueriders.it/wp-content/uploads/2019/09/iStock-498713262.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: white;
+ border: 3px solid whitesmoke;
+ background-position: center;
+ position: relative;
+}
+
+.little-man-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #b51621;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 1160px;
+  }
+  
+  .little-man-button i {
+    font-size: 16px;
+  }
+  
+  .little-man-button:hover {
+    background-color: #2c2c2c;
+  }
+  
+
+.logo
+{
+    width: 70px;
+    height: 70px;
+    margin-left:225px;
+    margin-top: 10px
+   
+}
+
+.overlay
+ {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+ }
+
+.titolo{
+    display:flex;
+    max-width: 780px;
+    margin: 1px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'PlayFair Display';
+    position: absolute;
+    bottom: 90%;
+    color: #2C2C2C;
+}
+
+.titolo2
+{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: #2C2C2C;
+    font-size: 28px;
+}
+
+.immagine{
+    align-items: center;
+    border-radius: 3%;
+    height: auto;
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.image-collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+  
+  .image-collage img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+#section{
+  height: auto;
+  width: calc(66.67% + 80px);
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+#flex-container{
+display:flex;
+width: calc(66.67% + 80px);
+flex-direction: column;
+margin: 0 auto;
+}
+
+.button {
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+  }
+  
+  .button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.2em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+  }
+  
+  .button span:hover {
+    transition: all 0.5s; /*Transition: all combina 4 tipi di transizione in una sola*/
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  .button span:not(hover) 
+  {
+    transition: all 1s;
+  }
+
+  .hotel-listings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .hotel {
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid #2C2C2C;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .hotel img {
+    width: 200px;
+    max-height: 200px;
+    border-radius: 4px;
+  }
+  
+  .hotel h2 {
+    margin-top: 10px;
+  }
+  
+  .hotel p {
+    margin-bottom: 10px;
+  }
+
+
+.footerp
+{
+  background-color: black;
+   color: whitesmoke;
+   padding: 2.5%;
+   font-size: 0.9rem;
+   font-weight: 200;
+   text-align: center;
+   font-family: 'Lora', serif;
+   letter-spacing: 2px;
+   font-style: normal;
+   height: 100px;
+   margin-top: 30px;
+}
+
+.commento 
+{
+  color: #727272;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-family: 'Merriweather';
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 80px;
+}
+
+
+#menu 
+{
+  display: none;
+  position: relative;
+  bottom:48%;
+  left: 92%;
+  width: 25px;
+}
+  
+#menu div 
+{
+  width: 25px;
+  height: 3px;
+  top: 4em;
+  background-color: rgb(0, 0, 0);
+  margin: 2px 0;
+}
+
+
+.bottone
+{
+  max-width: 200px;
+  margin-left: 31%;
+  margin-bottom: 10px;
+}
+
+.info_footer
+{
+  text-align: left;
+  font-size: 15px;
+}
+
+.info_footer2
+{
+  font-size: 15px;
+}
+
+
+@media (max-width: 750px)
+{
+  body
+  {
+    font-size:14px;
+  }
+
+  .immagine
+  {
+    height: 18vh;
+    width: 56vw;
+  }
+
+  .flex-item
+  {
+    padding: 0%;
+  }
+
+  .footerp
+  {
+    font-size:0.5rem;
+  }
+  
+  header
+  {
+    flex-direction:column;
+    justify-content: center;
+    height: 220px;
+  }
+
+  .titolo
+  {
+    font-size: 1.2em;
+  }
+
+  .elemnav
+  {
+    display: none;
+  }
+
+   #menu
+    {
+      display: block;
+
+    }
+
+.social-menu ul
+{
+  padding-left: 6%;
+}
+
+.social-menu ul li a
+{
+  width: 26px;
+  height: 26px;
+}
+  
+
+.social-menu ul li .fa{
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.info_footer
+{
+  font-size: 12px;
+}
+
+.info_footer2
+{
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.little-man-button {
+ 
+    background-color: #b51621;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    height: 20px;
+    margin-top: -425px;
+    margin-left: 350px;
+    width: 15px;
+  }
+
+  .logo
+{
+   display: none;;
+}
+
+.hotel img {
+    width: 100px;
+    max-height: 100px;
+    border-radius: 4px;
+  }
+}
